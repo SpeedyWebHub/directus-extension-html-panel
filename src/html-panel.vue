@@ -53,13 +53,13 @@ export default defineComponent({
 		});
 		
 		async function loadHTMLPanel() {
-			console.log('IN loadHTMLPanel');
-			console.log(htmlPanel);
-			console.log(htmlPanel.value);
-			console.log(props);
-			console.log(props.html);
+			// console.log('IN loadHTMLPanel');
+			// console.log(htmlPanel);
+			// console.log(htmlPanel.value);
+			// console.log(props);
+			// console.log(props.html);
 			if (htmlPanel?.value) {
-				console.log('AAA');
+				// console.log('AAA');
 				htmlPanel.value.innerHTML = props.html;
 			}
 		}
