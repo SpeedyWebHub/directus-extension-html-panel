@@ -117,19 +117,19 @@ export default defineComponent({
 
 <style lang="scss" scoped>
 .html-panel {
-	/*display: flex;
+	display: flex;
 	align-items: center;
 	width: 100%;
 	height: 100%;
 	font-weight: 800;
 	white-space: nowrap;
 	line-height: 1.2;
-	padding: 12px;*/
+	padding: 12px;
 
-	display: inline-flex;
+	/*display: inline-flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	justify-content: center;*/
 
 	&.sans-serif {
 		font-family: var(--theme--fonts--sans--font-family);
