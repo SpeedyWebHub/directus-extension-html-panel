@@ -116,26 +116,26 @@ export default defineComponent({
 </template>
 
 <style lang="scss" scoped>
-// .html-panel {
-// 	display: flex;
-// 	align-items: center;
-// 	width: 100%;
-// 	height: 100%;
-// 	font-weight: 800;
-// 	white-space: nowrap;
-// 	line-height: 1.2;
-// 	padding: 12px;
+/*.html-panel {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	font-weight: 800;
+	white-space: nowrap;
+	line-height: 1.2;
+	padding: 12px;
 
-// 	&.sans-serif {
-// 		font-family: var(--theme--fonts--sans--font-family);
-// 	}
+	&.sans-serif {
+		font-family: var(--theme--fonts--sans--font-family);
+	}
 
-// 	&.serif {
-// 		font-family: var(--theme--fonts--serif--font-family);
-// 	}
+	&.serif {
+		font-family: var(--theme--fonts--serif--font-family);
+	}
 
-// 	&.monospace {
-// 		font-family: var(--theme--fonts--monospace--font-family);
-// 	}
-// }
+	&.monospace {
+		font-family: var(--theme--fonts--monospace--font-family);
+	}
+}*/
 </style>
