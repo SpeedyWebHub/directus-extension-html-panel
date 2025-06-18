@@ -53,7 +53,9 @@ export default defineComponent({
 		});
 		
 		async function loadHTMLPanel() {
+			console.log('IN loadHTMLPanel');
 			if (htmlPanel?.value?.innerHTML) {
+				console.log('AAA');
 				htmlPanel.value.innerHTML = props.html;
 			}
 		}
