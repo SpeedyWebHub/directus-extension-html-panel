@@ -116,7 +116,7 @@ export default defineComponent({
 </template>
 
 <style lang="scss" scoped>
-/*.html-panel {
+.html-panel {
 	display: flex;
 	align-items: center;
 	width: 100%;
@@ -137,5 +137,5 @@ export default defineComponent({
 	&.monospace {
 		font-family: var(--theme--fonts--monospace--font-family);
 	}
-}*/
+}
 </style>
