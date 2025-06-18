@@ -58,7 +58,7 @@ export default defineComponent({
 			console.log(htmlPanel.value);
 			console.log(props);
 			console.log(props.html);
-			if (htmlPanel?.value?.innerHTML) {
+			if (htmlPanel?.value) {
 				console.log('AAA');
 				htmlPanel.value.innerHTML = props.html;
 			}
